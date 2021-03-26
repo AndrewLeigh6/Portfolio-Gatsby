@@ -2,7 +2,12 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "title": ["Chivo"],
+        "body": ["Overpass"]
+      }
+    },
   },
   variants: {
     extend: {},

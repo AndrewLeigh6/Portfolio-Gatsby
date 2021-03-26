@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/chivo": "^4.2.2",
+    "@fontsource/open-sans": "^4.2.2",
+    "@fontsource/overpass": "^4.2.2",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "gatsby": "^3.1.1",

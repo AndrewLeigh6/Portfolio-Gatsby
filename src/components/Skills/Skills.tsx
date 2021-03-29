@@ -1,12 +1,11 @@
 import React from "react"
+import Heading from "../Heading/Heading"
 import List from "./List/List"
 
 const Skills = () => {
   return (
     <div>
-      <div className="block p-6 bg-yellow-500 text-white text-3xl font-bold mb-10">
-        <div className="flex container mx-auto font-title">Skills</div>
-      </div>
+      <Heading title="Skills" backgroundClass="bg-yellow-500" />
       <div className="flex container mx-auto justify-around items-center flex-col pl-5 sm:pl-0 sm:flex-row font-body">
         <List
           title="Front End"

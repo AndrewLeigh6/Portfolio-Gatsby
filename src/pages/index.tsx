@@ -4,11 +4,13 @@ import "@fontsource/chivo"
 import "@fontsource/overpass"
 
 import Skills from "../components/Skills/Skills"
+import Contact from "../components/Contact/Contact"
 
 const IndexPage = () => (
   <React.Fragment>
     <SEO title="Home" />
-    <Skills />
+    {/* <Skills /> */}
+    <Contact />
   </React.Fragment>
 )
 

@@ -17,7 +17,7 @@ const ContactDetail = (props: ContactDetailProps) => {
     <div className="mb-7">
       <p className="font-title text-3xl font-bold mb-3">{props.heading}</p>
       <a href={url} target="_blank">
-        <p className="font-body text-green-500 text-xl">{props.body}</p>
+        <p className="font-body text-green-500 text-xl inline">{props.body}</p>
       </a>
     </div>
   )

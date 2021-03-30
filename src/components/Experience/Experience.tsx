@@ -14,10 +14,10 @@ const Experience = () => {
       <Heading title="Experience" />
       <div className="flex container mx-auto py-10 justify-between">
         <div className="max-w-md">
-          <p className="font-title font-bold text-gray-100 text-2xl mb-2">
+          <p className="font-title font-bold text-gray-50 text-2xl mb-2">
             Advansys
           </p>
-          <div className="font-body text-gray-100">
+          <div className="font-body text-gray-50">
             <p className="mb-3">
               Here are a few of the sites I worked on at Advansys between
               September 2015 and January 2018.

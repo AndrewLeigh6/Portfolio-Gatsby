@@ -4,9 +4,9 @@ import ContactDetail from "./ContactDetail/ContactDetail"
 
 const Contact = () => {
   return (
-    <div>
-      <Heading title="Contact" backgroundClass="bg-indigo-500" />
-      <div className="flex container mx-auto flex-col">
+    <div className="bg-gray-900">
+      <Heading title="Contact" />
+      <div className="flex container mx-auto flex-col py-10">
         <ContactDetail heading="Email" body="andrewleigh6@gmail.com" email />
         <ContactDetail
           heading="Github"

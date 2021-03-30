@@ -5,11 +5,13 @@ import "@fontsource/overpass"
 
 import Skills from "../components/Skills/Skills"
 import Contact from "../components/Contact/Contact"
+import Experience from "../components/Experience/Experience"
 
 const IndexPage = () => (
   <React.Fragment>
     <SEO title="Home" />
-    {/* <Skills /> */}
+    <Skills />
+    <Experience />
     <Contact />
   </React.Fragment>
 )

@@ -4,9 +4,9 @@ import List from "./List/List"
 
 const Skills = () => {
   return (
-    <div>
-      <Heading title="Skills" backgroundClass="bg-yellow-500" />
-      <div className="flex container mx-auto justify-around items-center flex-col pl-5 sm:pl-0 sm:flex-row font-body">
+    <div className="bg-gray-900">
+      <Heading title="Skills" />
+      <div className="flex container mx-auto justify-around items-center flex-col pl-5 py-10 sm:pl-0 sm:flex-row font-body">
         <List
           title="Front End"
           skills={["HTML", "CSS", "SCSS / SASS", "JSX", "Bootstrap"]}

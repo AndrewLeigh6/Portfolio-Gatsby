@@ -1,5 +1,6 @@
 import React from "react"
 import HeaderText from "../../Text/HeaderText/HeaderText"
+import SubheadingText from "../../Text/SubheadingText/SubheadingText"
 
 interface ContactDetailProps {
   heading: string
@@ -16,7 +17,7 @@ const ContactDetail = (props: ContactDetailProps) => {
 
   return (
     <div className="mb-7">
-      <HeaderText>{props.heading}</HeaderText>
+      <SubheadingText>{props.heading}</SubheadingText>
       <a href={url} target="_blank">
         <p className="font-body text-green-500 text-xl inline">{props.body}</p>
       </a>

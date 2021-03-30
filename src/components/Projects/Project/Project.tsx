@@ -1,5 +1,7 @@
 import React from "react"
+import BodyText from "../../Text/BodyText/BodyText"
 import HeaderText from "../../Text/HeaderText/HeaderText"
+import SubheadingText from "../../Text/SubheadingText/SubheadingText"
 
 interface ProjectProps {
   title: string
@@ -15,13 +17,17 @@ const Project = (props: ProjectProps) => {
     <div className="flex mx-auto container justify-between mb-20">
       <div className="max-w-md">
         <HeaderText marginBottom>{props.title}</HeaderText>
-        <p className="text-gray-50 font-body mb-5">{props.children}</p>
-        <p className="font-title font-bold text-gray-50 text-xl mb-2">Tools</p>
-        <p className="text-gray-50 font-body mb-5">{props.tools}</p>
-        <p className="font-title font-bold text-gray-50 text-xl mb-2">Github</p>
-        <p className="text-green-400 font-body mb-5">{props.github}</p>
-        <p className="font-title font-bold text-gray-50 text-xl mb-2">Design</p>
-        <p className="text-green-400 font-body mb-5">{props.design}</p>
+        <BodyText>{props.children}</BodyText>
+        <SubheadingText>Tools</SubheadingText>
+        <BodyText>{props.tools}</BodyText>
+        <SubheadingText>Github</SubheadingText>
+        <a href={props.github} target="_blank">
+          <BodyText link>{props.github}</BodyText>
+        </a>
+        <SubheadingText>Design</SubheadingText>
+        <a href={props.design} target="_blank">
+          <BodyText link>{props.design}</BodyText>
+        </a>
         <button className="bg-green-400 font-body text-gray-900 text-l pt-3 pb-2 px-8">
           View Site
         </button>

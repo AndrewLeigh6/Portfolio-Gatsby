@@ -1,23 +1,23 @@
 import React from "react"
 
-interface HeaderTextProps {
+interface SubheadingTextProps {
   children: string
   marginBottom?: boolean
 }
 
-const HeaderText = (props: HeaderTextProps) => {
+const SubheadingText = (props: SubheadingTextProps) => {
   let styles: string = ""
 
   // These optional properties need a space afterwards to stop class strings combining
   if (props.marginBottom) {
-    styles = styles + "mb-5 "
+    styles = styles + "mb-2 "
   }
 
   return (
-    <p className={"text-3xl text-white font-title font-bold " + styles}>
+    <p className={"font-title font-bold text-gray-50 text-xl " + styles}>
       {props.children}
     </p>
   )
 }
 
-export default HeaderText
+export default SubheadingText

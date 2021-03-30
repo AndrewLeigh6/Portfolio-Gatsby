@@ -8,6 +8,7 @@ import Converj from "../../images/thumbnails/converj.png"
 import Wowbbq from "../../images/thumbnails/wowbbq.png"
 import BeHair from "../../images/thumbnails/behair.png"
 import HeaderText from "../Text/HeaderText/HeaderText"
+import SubheadingText from "../Text/SubheadingText/SubheadingText"
 
 const Experience = () => {
   return (
@@ -15,7 +16,7 @@ const Experience = () => {
       <Heading title="Experience" />
       <div className="flex container mx-auto py-10 justify-between">
         <div className="max-w-md">
-          <HeaderText marginBottom>Advansys</HeaderText>
+          <SubheadingText marginBottom>Advansys</SubheadingText>
           <div className="font-body text-gray-50">
             <p className="mb-3">
               Here are a few of the sites I worked on at Advansys between

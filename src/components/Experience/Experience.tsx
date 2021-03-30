@@ -9,6 +9,7 @@ import Wowbbq from "../../images/thumbnails/wowbbq.png"
 import BeHair from "../../images/thumbnails/behair.png"
 import HeaderText from "../Text/HeaderText/HeaderText"
 import SubheadingText from "../Text/SubheadingText/SubheadingText"
+import BodyText from "../Text/BodyText/BodyText"
 
 const Experience = () => {
   return (
@@ -18,15 +19,15 @@ const Experience = () => {
         <div className="max-w-md">
           <SubheadingText marginBottom>Advansys</SubheadingText>
           <div className="font-body text-gray-50">
-            <p className="mb-3">
+            <BodyText>
               Here are a few of the sites I worked on at Advansys between
               September 2015 and January 2018.
-            </p>
-            <p>
+            </BodyText>
+            <BodyText>
               This mainly consisted of converting designs into functional and
               responsive sites, implementing business logic, and adding any
               other required features.
-            </p>
+            </BodyText>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-x-5 gap-y-5">

@@ -1,4 +1,5 @@
 import React from "react"
+import SubheadingText from "../../Text/SubheadingText/SubheadingText"
 
 interface ListProps {
   title: string
@@ -8,9 +9,7 @@ interface ListProps {
 const List = (props: ListProps) => {
   return (
     <div className="container mx-auto mb-8 sm:mb-0">
-      <p className="text-3xl font-bold mb-3 text-gray-50 font-title">
-        {props.title}
-      </p>
+      <SubheadingText marginBottom>{props.title}</SubheadingText>
       <ul className="list-disc ml-5">{renderSkills(props.skills)}</ul>
     </div>
   )

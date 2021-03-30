@@ -12,7 +12,9 @@ const BodyText = (props: BodyTextProps) => {
     styles = "text-green-400"
   }
 
-  return <p className={"font-body mb-5 " + styles}>{props.children}</p>
+  return (
+    <p className={"font-body mb-5 inline-block " + styles}>{props.children}</p>
+  )
 }
 
 export default BodyText

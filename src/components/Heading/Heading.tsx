@@ -1,4 +1,5 @@
 import React from "react"
+import HeaderText from "../Text/HeaderText/HeaderText"
 
 interface HeadingProps {
   title: string
@@ -6,8 +7,10 @@ interface HeadingProps {
 
 const Heading = (props: HeadingProps) => {
   return (
-    <div className="block py-5 text-white text-3xl font-bold bg-green-400">
-      <div className="flex container mx-auto font-title">{props.title}</div>
+    <div className="block py-5 bg-green-400">
+      <div className="flex container mx-auto">
+        <HeaderText>{props.title}</HeaderText>
+      </div>
     </div>
   )
 }

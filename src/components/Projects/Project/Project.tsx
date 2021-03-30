@@ -1,4 +1,5 @@
 import React from "react"
+import HeaderText from "../../Text/HeaderText/HeaderText"
 
 interface ProjectProps {
   title: string
@@ -13,9 +14,7 @@ const Project = (props: ProjectProps) => {
   return (
     <div className="flex mx-auto container justify-between mb-20">
       <div className="max-w-md">
-        <p className="font-title font-bold text-gray-50 text-3xl mb-5">
-          {props.title}
-        </p>
+        <HeaderText marginBottom>{props.title}</HeaderText>
         <p className="text-gray-50 font-body mb-5">{props.children}</p>
         <p className="font-title font-bold text-gray-50 text-xl mb-2">Tools</p>
         <p className="text-gray-50 font-body mb-5">{props.tools}</p>

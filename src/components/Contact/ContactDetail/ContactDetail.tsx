@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "../../Link/Link"
 import HeaderText from "../../Text/HeaderText/HeaderText"
 import SubheadingText from "../../Text/SubheadingText/SubheadingText"
 
@@ -18,9 +19,9 @@ const ContactDetail = (props: ContactDetailProps) => {
   return (
     <div className="mb-7">
       <SubheadingText>{props.heading}</SubheadingText>
-      <a href={url} target="_blank">
+      <Link url={url}>
         <p className="font-body text-green-500 text-xl inline">{props.body}</p>
-      </a>
+      </Link>
     </div>
   )
 }

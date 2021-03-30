@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "../../Link/Link"
 import BodyText from "../../Text/BodyText/BodyText"
 import HeaderText from "../../Text/HeaderText/HeaderText"
 import SubheadingText from "../../Text/SubheadingText/SubheadingText"
@@ -21,13 +22,13 @@ const Project = (props: ProjectProps) => {
         <SubheadingText>Tools</SubheadingText>
         <BodyText>{props.tools}</BodyText>
         <SubheadingText>Github</SubheadingText>
-        <a href={props.github} target="_blank">
+        <Link url={props.github}>
           <BodyText link>{props.github}</BodyText>
-        </a>
+        </Link>
         <SubheadingText>Design</SubheadingText>
-        <a href={props.design} target="_blank">
+        <Link url={props.design}>
           <BodyText link>{props.design}</BodyText>
-        </a>
+        </Link>
         <button className="bg-green-400 font-body text-gray-900 text-l pt-3 pb-2 px-8">
           View Site
         </button>

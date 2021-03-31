@@ -1,7 +1,7 @@
 import React from "react"
 
 interface LinkProps {
-  children: JSX.Element | JSX.Element[]
+  children: JSX.Element | JSX.Element[] | string
   url: string
 }
 

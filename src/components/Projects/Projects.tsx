@@ -7,7 +7,7 @@ import PurrfectPartners from "../../images/projects/purrfect-partners.png"
 
 const Projects = () => {
   return (
-    <div className="bg-gray-900">
+    <div id="projects" className="bg-gray-900">
       <Heading title="Personal Projects" />
       <div className="flex container flex-col mx-auto py-10">
         <Project

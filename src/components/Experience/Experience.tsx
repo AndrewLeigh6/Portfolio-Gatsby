@@ -13,7 +13,7 @@ import BodyText from "../Text/BodyText/BodyText"
 
 const Experience = () => {
   return (
-    <div className="bg-gray-900">
+    <div id="experience" className="bg-gray-900">
       <Heading title="Experience" />
       <div className="flex container mx-auto py-10 justify-between">
         <div className="max-w-md">

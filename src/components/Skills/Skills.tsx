@@ -4,7 +4,7 @@ import List from "./List/List"
 
 const Skills = () => {
   return (
-    <div className="bg-gray-900">
+    <div id="skills" className="bg-gray-900">
       <Heading title="Skills" />
       <div className="flex container mx-auto justify-around items-center flex-col pl-5 py-10 sm:pl-0 sm:flex-row font-body">
         <List

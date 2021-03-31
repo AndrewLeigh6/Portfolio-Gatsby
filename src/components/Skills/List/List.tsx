@@ -17,7 +17,11 @@ const List = (props: ListProps) => {
 
 function renderSkills(skills: string[]) {
   return skills.map(skill => {
-    return <li className="text-gray-50">{skill}</li>
+    return (
+      <li key={skill} className="text-gray-50">
+        {skill}
+      </li>
+    )
   })
 }
 

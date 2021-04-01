@@ -8,6 +8,9 @@ module.exports = {
         "body": ["Overpass"]
       }
     },
+    container: {
+      padding: "1rem",
+    }
   },
   variants: {
     extend: {

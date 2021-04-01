@@ -21,7 +21,7 @@ const Project = (props: ProjectProps) => {
     notes = <p className="font-body text-gray-200 mt-10">{props.notes}</p>
   }
   return (
-    <div className="flex mx-auto container justify-between mb-10 last:mb-0 pt-10 first:pt-0">
+    <div className="flex justify-between mb-10 last:mb-0 pt-10 first:pt-0">
       <div className="max-w-md">
         <HeaderText marginBottom>{props.title}</HeaderText>
         <BodyText>{props.children}</BodyText>

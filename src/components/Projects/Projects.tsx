@@ -15,6 +15,7 @@ const Projects = () => {
           tools="HTML, CSS, SCSS, Javascript, Typescript, React, NodeJS, Express, Jest, PostgreSQL, Docker, Nginx"
           github="https://github.com/AndrewLeigh6/GamesWithFriends"
           design="https://www.figma.com/file/J9PAMQlLNlV9BXUpRgTJCF/GamesWithFriends"
+          siteUrl=""
           image={GamesWithFriends}
         >
           I built this site in order to make it easier for groups of people to
@@ -27,7 +28,9 @@ const Projects = () => {
           tools="HTML, CSS, Javascript, React, NodeJS, Express, Docker, Nginx"
           github="https://github.com/AndrewLeigh6/TV-Timer"
           design="https://www.figma.com/file/w86jWhO8yzfvUA4DUvfA6T/TV-Timer"
+          siteUrl=""
           image={TVTimer}
+          notes="NOTE: If this site seems like it's taking a while to load, don't worry. Heroku sites hosted using the free tier go to sleep if they haven't been accessed for a while. If this is the case, it should be visible within 15 seconds."
         >
           This site was developed in order to help calculate start or end times
           for films, taking into account both the length of the film and the
@@ -38,6 +41,7 @@ const Projects = () => {
           tools="HTML, CSS, SCSS, Javascript"
           github="https://github.com/AndrewLeigh6/Purrfect-Partners"
           design="https://www.figma.com/file/JymheioAuR6B9IrYLfv6OLST/Purrfect-Partners"
+          siteUrl="https://andrewleigh6.github.io/Purrfect-Partners/"
           image={PurrfectPartners}
         >
           This site was built in order to practice CSS, SCSS, BEM, and learn

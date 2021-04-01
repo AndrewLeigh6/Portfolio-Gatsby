@@ -11,9 +11,15 @@ interface ProjectProps {
   design: string
   children: string
   image: string
+  siteUrl: string
+  notes?: string
 }
 
 const Project = (props: ProjectProps) => {
+  let notes
+  if (props.notes) {
+    notes = <p className="font-body text-gray-200 mt-10">{props.notes}</p>
+  }
   return (
     <div className="flex mx-auto container justify-between mb-10 last:mb-0 pt-10 first:pt-0">
       <div className="max-w-md">
@@ -29,9 +35,14 @@ const Project = (props: ProjectProps) => {
         <Link url={props.design}>
           <BodyText link>{props.design}</BodyText>
         </Link>
-        <button className="bg-green-400 font-body text-gray-900 text-l pt-3 pb-2 px-8">
+        <a
+          href={props.siteUrl}
+          target="_blank"
+          className="bg-green-400 font-body text-gray-900 text-l pt-4 pb-3 px-10 text-center"
+        >
           View Site
-        </button>
+        </a>
+        {notes}
       </div>
       <div className="max-w-2xl">
         <img src={props.image} />

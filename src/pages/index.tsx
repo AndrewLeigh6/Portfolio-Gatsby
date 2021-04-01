@@ -8,6 +8,7 @@ import Contact from "../components/Contact/Contact"
 import Experience from "../components/Experience/Experience"
 import Projects from "../components/Projects/Projects"
 import Hero from "../components/Hero/Hero"
+import Modal from "../components/Experience/Modal/Modal"
 
 const IndexPage = () => (
   <React.Fragment>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Projects />
     <Experience />
     <Contact />
+    {/* <Modal name="Roch Valley" url="www.roch-valley.co.uk" image="blah" /> */}
   </React.Fragment>
 )
 

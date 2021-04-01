@@ -28,7 +28,7 @@ const Projects = () => {
           tools="HTML, CSS, Javascript, React, NodeJS, Express, Docker, Nginx"
           github="https://github.com/AndrewLeigh6/TV-Timer"
           design="https://www.figma.com/file/w86jWhO8yzfvUA4DUvfA6T/TV-Timer"
-          siteUrl=""
+          siteUrl="https://tv-timer.herokuapp.com/"
           image={TVTimer}
           notes="NOTE: If this site seems like it's taking a while to load, don't worry. Heroku sites hosted using the free tier go to sleep if they haven't been accessed for a while. If this is the case, it should be visible within 15 seconds."
         >

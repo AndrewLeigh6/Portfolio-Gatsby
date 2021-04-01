@@ -38,7 +38,7 @@ const Project = (props: ProjectProps) => {
         <a
           href={props.siteUrl}
           target="_blank"
-          className="bg-green-400 font-body text-gray-900 text-l pt-4 pb-3 px-10 text-center"
+          className="bg-green-400 font-body text-gray-900 text-l pt-4 pb-3 px-10 text-center inline-block"
         >
           View Site
         </a>

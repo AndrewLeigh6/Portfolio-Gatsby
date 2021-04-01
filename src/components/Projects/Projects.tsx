@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div id="projects" className="bg-gray-900">
       <Heading title="Personal Projects" />
-      <div className="flex container flex-col mx-auto py-10">
+      <div className="flex container flex-col mx-auto py-10 divide-y-2 divide-gray-800">
         <Project
           title="Games With Friends"
           tools="HTML, CSS, SCSS, Javascript, Typescript, React, NodeJS, Express, Jest, PostgreSQL, Docker, Nginx"

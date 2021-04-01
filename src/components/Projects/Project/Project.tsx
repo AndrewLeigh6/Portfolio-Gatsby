@@ -15,7 +15,7 @@ interface ProjectProps {
 
 const Project = (props: ProjectProps) => {
   return (
-    <div className="flex mx-auto container justify-between mb-20">
+    <div className="flex mx-auto container justify-between mb-10 last:mb-0 pt-10 first:pt-0">
       <div className="max-w-md">
         <HeaderText marginBottom>{props.title}</HeaderText>
         <BodyText>{props.children}</BodyText>

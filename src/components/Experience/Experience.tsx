@@ -144,7 +144,7 @@ const Experience = () => {
     <div id="experience" className="bg-gray-900">
       {renderModal()}
       <Heading title="Experience" />
-      <div className="flex container mx-auto py-10 justify-between">
+      <div className="flex flex-col lg:flex-row container mx-auto py-10 justify-between">
         <div className="max-w-md">
           <SubheadingText marginBottom>Advansys</SubheadingText>
           <div className="font-body text-gray-50">
@@ -159,7 +159,7 @@ const Experience = () => {
             </BodyText>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-x-5 gap-y-5">
+        <div className="grid grid-cols-1 gap-x-5 gap-y-5 mt-5 lg:grid-cols-2">
           {renderThumbnails()}
         </div>
       </div>

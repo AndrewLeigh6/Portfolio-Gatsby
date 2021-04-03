@@ -7,7 +7,7 @@ interface LinkProps {
 
 const Link = (props: LinkProps) => {
   return (
-    <a href={props.url} target="_blank" className="inline">
+    <a href={props.url} target="_blank" className="inline break-all">
       {props.children}
     </a>
   )

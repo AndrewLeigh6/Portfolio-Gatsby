@@ -25,6 +25,11 @@ const Project = (props: ProjectProps) => {
       <div className="max-w-md">
         <HeaderText marginBottom>{props.title}</HeaderText>
         <BodyText>{props.children}</BodyText>
+        <img
+          className="mb-10 xl:hidden"
+          src={props.image}
+          alt={"Screenshot of " + props.title}
+        />
         <SubheadingText>Tools</SubheadingText>
         <BodyText>{props.tools}</BodyText>
         <SubheadingText>Github</SubheadingText>
@@ -44,8 +49,8 @@ const Project = (props: ProjectProps) => {
         </a>
         {notes}
       </div>
-      <div className="max-w-2xl">
-        <img src={props.image} />
+      <div className="max-w-2xl hidden xl:block">
+        <img src={props.image} alt={"Screenshot of " + props.title} />
       </div>
     </div>
   )

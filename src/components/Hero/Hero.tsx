@@ -11,7 +11,7 @@ const Hero = () => {
     <div id="hero">
       <div className="h-screen bg-cover bg-bottom" style={styles}>
         <Nav />
-        <div className="font-title text-white container mx-auto flex flex-col mt-28">
+        <div className="font-title text-white container mx-auto flex flex-col transform translate-y-40">
           <p className="font-bold text-7xl">Andrew Leigh</p>
           <p className="text-5xl">Front End</p>
           <p className="text-5xl">Web Developer</p>

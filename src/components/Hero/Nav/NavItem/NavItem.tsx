@@ -8,7 +8,10 @@ interface NavItemProps {
 
 const NavItem = (props: NavItemProps) => {
   return (
-    <li className="ml-10 hover:text-yellow-500" key={props.text}>
+    <li
+      className="ml-0 sm:ml-5 xl:ml-10 hover:text-yellow-500"
+      key={props.text}
+    >
       {/* <Link url={props.url}>{props.text}</Link> */}
       <a href={props.url}>{props.text}</a>
     </li>

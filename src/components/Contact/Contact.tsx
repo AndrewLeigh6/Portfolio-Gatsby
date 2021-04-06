@@ -18,7 +18,7 @@ const Contact = () => {
         />
         <ContactDetail
           heading="CV"
-          body="https://drive.google.com/file/d/1svJJ3JKGHcOPQm_NddCg4TzGWCimkeFM/view?usp=sharing"
+          body="https://drive.google.com/file/d/1LcTWh9eDegS5wwWgnE0t0Kjz0K31uTeE"
         />
       </div>
     </div>

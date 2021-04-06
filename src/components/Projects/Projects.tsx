@@ -1,6 +1,7 @@
 import React from "react"
 import Heading from "../Heading/Heading"
 import Project from "./Project/Project"
+import Portfolio from "../../images/projects/portfolio.png"
 import GamesWithFriends from "../../images/projects/games-with-friends-tablet.png"
 import TVTimer from "../../images/projects/tv-timer.png"
 import PurrfectPartners from "../../images/projects/purrfect-partners.png"
@@ -11,17 +12,29 @@ const Projects = () => {
       <Heading title="Personal Projects" />
       <div className="flex container flex-col mx-auto py-10 divide-y-2 divide-gray-800">
         <Project
+          title="Portfolio"
+          tools="HTML, CSS, Tailwind CSS, Javascript, Typescript, React, Gatsby"
+          github="https://github.com/AndrewLeigh6/Portfolio-Gatsby"
+          design="https://www.figma.com/file/DVZHSr3aC8eMHuQdY38VCy/andrew-leigh.codes"
+          siteUrl="https://andrew-leigh.codes"
+          image={Portfolio}
+        >
+          I build this site partly to have one place where I could show off my
+          work, but mainly as an excuse to try out Tailwind and Gatsby.
+        </Project>
+        <Project
           title="Games With Friends"
           tools="HTML, CSS, SCSS, Javascript, Typescript, React, NodeJS, Express, Jest, PostgreSQL, Docker, Nginx"
           github="https://github.com/AndrewLeigh6/GamesWithFriends"
           design="https://www.figma.com/file/J9PAMQlLNlV9BXUpRgTJCF/GamesWithFriends"
-          siteUrl=""
+          siteUrl="http://35.214.4.5:81/"
           image={GamesWithFriends}
+          notes="NOTE: I'm still actively working on and improving this site, so if anything breaks, don't worry - it's probably my fault."
         >
           I built this site in order to make it easier for groups of people to
           choose a game to play together on Steam. It pulls data from the Steam
           API, caches it in a database, and determines which games the users
-          have in common.
+          have in common. Users can then vote on what they'd like to play.
         </Project>
         <Project
           title="TV Timer"

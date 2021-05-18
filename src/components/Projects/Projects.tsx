@@ -27,9 +27,8 @@ const Projects = () => {
           tools="HTML, CSS, SCSS, Javascript, Typescript, React, NodeJS, Express, Jest, PostgreSQL, Docker, Nginx"
           github="https://github.com/AndrewLeigh6/GamesWithFriends"
           design="https://www.figma.com/file/J9PAMQlLNlV9BXUpRgTJCF/GamesWithFriends"
-          siteUrl="http://35.214.4.5:81/"
+          siteUrl="http://gameswithfriends.andrew-leigh.codes:81/"
           image={GamesWithFriends}
-          notes="NOTE: I'm still actively working on and improving this site, so if anything breaks, don't worry - it's probably my fault."
         >
           I built this site in order to make it easier for groups of people to
           choose a game to play together on Steam. It pulls data from the Steam
